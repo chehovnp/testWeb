@@ -1,14 +1,15 @@
 package ru.orbita.dao;
 
-import ru.orbita.model.RequestCounter;
-
 public interface RequestCounterDao {
 
-    RequestCounter increment();
+    long increment();
 
-    RequestCounter get();
+    long incrementInDB();
 
-    void resetCounter(RequestCounter requestCounter);
+    void resetCounter();
 
     void init();
+
+    long getCounter();
+
 }

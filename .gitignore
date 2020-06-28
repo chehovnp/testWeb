@@ -30,4 +30,4 @@ build/
 ### VS Code ###
 .vscode/
 # Editor-based HTTP Client requests
-/httpRequests/
+/.idea/httpRequests/

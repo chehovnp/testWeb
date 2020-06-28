@@ -16,13 +16,12 @@ public class RequestCounterRestController {
     }
 
     @PostMapping
-    ResponseEntity<RequestCounter> increment() {
-//        return new ResponseEntity<>(service.increment(), HttpStatus.OK);
+    ResponseEntity<Long> increment() {
         return ResponseEntity.ok(service.increment());
     }
 
     @GetMapping
-    ResponseEntity<RequestCounter> getRequestCounter() {
+    ResponseEntity<Long> getRequestCounter() {
         return ResponseEntity.ok(service.get());
 
     }

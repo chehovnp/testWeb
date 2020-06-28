@@ -1,12 +1,10 @@
 package ru.orbita.service;
 
-import ru.orbita.model.RequestCounter;
-
 public interface RequestCounterService {
 
-    RequestCounter increment();
+    long increment();
 
-    RequestCounter get();
+    long get();
 
     void resetCounter();
 
