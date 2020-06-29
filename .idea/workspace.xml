@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdb7afb-037b-4e59-89f9-722c9a250535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,9 +81,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response9.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -453,17 +449,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:testWeb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:testWeb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7803809" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -542,46 +528,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593309523180" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1593383797335">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1593390405383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593383797335" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1593383797334">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593390405383" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1593390405382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593383797334" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1593383797334">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593390405382" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1593390405382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593383797334" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1593383797334">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593390405382" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1593390405383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593383797334" />
-    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1593383797327">
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593390405383" />
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1593390276510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
-    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1593383797327">
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593390276510" />
+    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1593390276510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
-    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1593383797327">
+    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593390276510" />
+    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1593390276510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
-    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1593383797327">
+    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593390276510" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1593390276510">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593390276510" />
     <state x="213" y="17" key="Maven.ArtifactSearchDialog" timestamp="1593303816160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="17" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593303816160" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1593382361637">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1593389750820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593382361637" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593389750820" />
     <state x="551" y="252" width="326" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593379072532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
