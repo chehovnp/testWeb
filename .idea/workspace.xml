@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdb7afb-037b-4e59-89f9-722c9a250535" name="Default Changelist" comment="создал контроллер , дао, сервис , модель , мейн">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/orbita/service/RequestCounterServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/RequestCounterApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/controller/RequestCounterRestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/dao/RequestCounterDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/dao/RequestCounterDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/model/RequestCounter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/service/RequestCounterService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ru/orbita/service/RequestCounterServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/orbita/controller/RequestCounterRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/orbita/controller/RequestCounterRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/orbita/dao/RequestCounterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/orbita/dao/RequestCounterDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/orbita/dao/RequestCounterDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/orbita/dao/RequestCounterDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/orbita/service/RequestCounterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/orbita/service/RequestCounterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/orbita/service/RequestCounterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/orbita/service/RequestCounterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="cfdb7afb-037b-4e59-89f9-722c9a250535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +83,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response9.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -158,6 +146,101 @@
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:9000" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://192.168.99.100:9000" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
           <option name="httpMethod" value="DELETE" />
           <option name="urlBase" value="http://localhost:8081" />
           <option name="urlPath" value="" />
@@ -198,63 +281,6 @@
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8081" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="DELETE" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:8080" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="POST" />
-          <option name="urlBase" value="http://localhost:8080" />
           <option name="urlPath" value="" />
           <option name="headers">
             <list>
@@ -435,7 +461,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:testWeb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@1df5c426" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7803809" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -459,7 +485,8 @@
       <workItem from="1593303662850" duration="7496000" />
       <workItem from="1593311427526" duration="4322000" />
       <workItem from="1593376678758" duration="3261000" />
-      <workItem from="1593380208386" duration="1668000" />
+      <workItem from="1593380208386" duration="3260000" />
+      <workItem from="1593387886417" duration="856000" />
     </task>
     <task id="LOCAL-00001" summary="создал контроллер , дао, сервис , модель , мейн">
       <created>1593299834216</created>
@@ -468,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593299834217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="переделал дао: вытаскиваю из базы лонг , инкремент на стороне базы , добавил нагрузочный тест и протестировал на инкремент на 4 потока и отдельно 2 инстанса по 2 потока.">
+      <created>1593382337849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593382337849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,69 +510,78 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создал контроллер , дао, сервис , модель , мейн" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал контроллер , дао, сервис , модель , мейн" />
+    <MESSAGE value="переделал дао: вытаскиваю из базы лонг , инкремент на стороне базы , добавил нагрузочный тест и протестировал на инкремент на 4 потока и отдельно 2 инстанса по 2 потока." />
+    <option name="LAST_COMMIT_MESSAGE" value="переделал дао: вытаскиваю из базы лонг , инкремент на стороне базы , добавил нагрузочный тест и протестировал на инкремент на 4 потока и отдельно 2 инстанса по 2 потока." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="21" key="#Project_Structure" timestamp="1593292059313">
+    <state x="402" y="0" key="#Dockerfile" timestamp="1593388961200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1593292059313" />
+    <state x="402" y="0" key="#Dockerfile/0.0.1366.728@0.0.1366.728" timestamp="1593388961200" />
+    <state x="275" y="21" key="#Project_Structure" timestamp="1593382440969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1593382440969" />
     <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593304539259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593304539259" />
+    <state x="440" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593382478864">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1593382478864" />
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1593301780469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593301780469" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1593300217263">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1593389576335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593300217263" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593389576335" />
     <state x="463" y="117" key="FileChooserDialogImpl" timestamp="1593309523180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593309523180" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1593382180569">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1593383797335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593382180569" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1593382180566">
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593383797335" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1593383797334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593382180566" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1593382180558">
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593383797334" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1593383797334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593382180557" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1593382180567">
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593383797334" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1593383797334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593382180567" />
-    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1593380495823">
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593383797334" />
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom" timestamp="1593383797327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593380495823" />
-    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1593380495822">
+    <state width="1322" height="174" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
+    <state width="1322" height="174" key="GridCell.Tab.1.center" timestamp="1593383797327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593380495822" />
-    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1593380495822">
+    <state width="1322" height="174" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
+    <state width="1322" height="174" key="GridCell.Tab.1.left" timestamp="1593383797327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593380495822" />
-    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1593380495822">
+    <state width="1322" height="174" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right" timestamp="1593383797327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593380495822" />
+    <state width="1322" height="174" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593383797327" />
     <state x="213" y="17" key="Maven.ArtifactSearchDialog" timestamp="1593303816160">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="17" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1593303816160" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1593300276325">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1593382361637">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593300276325" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1593382361637" />
     <state x="551" y="252" width="326" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1593379072532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -555,5 +598,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1593297235003" />
+    <state x="339" y="157" width="672" height="59" key="run.anything.popup" timestamp="1593383522579">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="59" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593383522579" />
   </component>
 </project>
